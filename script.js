@@ -5,7 +5,7 @@ const computerScoreHtml = document.getElementById("computer-score");
 const selectionHtml = document.querySelectorAll(".selection-symbol");
 const playerSelectionHtml = document.getElementById("player-selection");
 const computerSelectionHtml = document.getElementById("computer-selection");
-const resetHtml = document.querySelector(".reset");
+const resetHtml = document.querySelector(".reset-btn");
 
 // Default Variables
 let playerScore = 0;
