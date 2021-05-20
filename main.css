@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EEEBE2;
+}
+
+body {
+    min-width: 500px;
+}
+
+/* --- */
+
+.selections {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 4rem auto 2rem auto;
+}
+
+@media (max-width: 800px) {
+    .selections{
+      flex-direction: column;
+    }
+}
+
+.selection-div {
+    min-width: 15rem;
+}
+
+.selection-symbol{
+    text-align: center;
+    cursor: pointer;
+    font-size: 8rem;
+    margin: 2rem auto;
+}
+
+.selection-symbol:hover{
+    transform: scale(1.2);
+}
+
+/* --- */
+
+.result {
+    text-align: center;
+    color: #99947F;
+    font-size: 2.5rem;
+    height: 4rem;
+}
+
+/* --- */
+
+.score-board {
+    margin: 2rem auto;
+}
+
+.score-board-title {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    gap: 3rem;
+}
+
+.score-board-title>div {
+    text-align: center;
+    width: 7.5rem;
+}
+
+.score-board-selection {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    gap: 4rem;
+}
+
+.score-board-selection>div{
+    text-align: center;
+    width: 7.5rem;
+}
+
+.score-board-count {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    gap: 8rem;
+    margin-top: 1rem;
+}
+
+/* --- */
+
+.draw-text{
+    color: #99947F;
+}
+
+#player-score, .winner-text {
+    color: #7FA489;
+}
+
+#computer-score, .loser-text {
+    color: #C87E74;
+}
+
+/* --- */
+
+.loser {
+    opacity: 50%;
+    transform: scale(0.75);
+}
+
+/* --- */
+
+.reset {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
