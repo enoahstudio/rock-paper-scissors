@@ -19,7 +19,6 @@ selectionHtml.forEach(selection => selection.addEventListener("click", function(
     game(selection.id);
 }));
 
-
 // Reset
 resetHtml.addEventListener("click", function(){
     playerScore = 0;
