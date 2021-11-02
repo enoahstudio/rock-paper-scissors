@@ -1,1 +1,1 @@
-LIVE PREVIEW: https://enoahstudio.github.io/rock_paper_scissors/
+LIVE PREVIEW: https://enoahstudio.github.io/rock-paper-scissors/
